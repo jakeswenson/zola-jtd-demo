@@ -13,5 +13,7 @@ build_search_index = true
 
 theme = 'zola-just-the-docs'
 
+title = "engineering-practices docs"
+
 [extra]
 # Put all your custom variables here
