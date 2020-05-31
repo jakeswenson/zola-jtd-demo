@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://engineering.jakes.dev/"
+base_url = "https://zola-jtd-demo.jakeswenson.now.sh/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -13,7 +13,7 @@ build_search_index = true
 
 theme = 'zola-just-the-docs'
 
-title = "engineering-practices docs"
+title = "Just the Docs Zola Demo"
 
 [extra]
 # Put all your custom variables here
