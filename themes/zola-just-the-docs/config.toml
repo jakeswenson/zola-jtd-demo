@@ -1,3 +1,5 @@
+title = "Zola Just The Docs"
+default_language = "en"
 # The URL the site will be built for
 base_url = "https://example.com"
 
@@ -11,8 +13,9 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-title = "test"
-default_language = "en"
-
 [extra]
-links = []
+footer = "Copyright &copy; 2020 Jake Swenson. Distributed by an <a href=\"https://github.com/jakeswenson/zola-just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+links = [
+  { title = 'GitHub', url = 'https://github.com/jakeswenson/zola-just-the-docs/' },
+  { title = 'Demo', url = 'https://zola-jtd-demo.jakeswenson.now.sh/' }
+]
