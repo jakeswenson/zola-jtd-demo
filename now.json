@@ -1,7 +1,19 @@
 {
+  "version": 2,
+  "name": "zola-jtd-demo",
   "build": {
     "env": {
-      "ZOLA_VERSION": "0.10.1"
+      "ZOLA_VERSION": "0.11.0"
     }
-  }
+  },
+  "builds": [
+    {
+      "src": "config.toml",
+      "use": "@vercel/static-build",
+      "config": {
+        "zeroConfig": true,
+        "framework": "zola"
+      }
+    }
+  ]
 }
